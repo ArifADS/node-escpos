@@ -27,9 +27,7 @@
     "get-pixels": "*",
     "iconv-lite": "*",
     "mutable-buffer": "*",
-    "qr-image": "*",
-    "serialport": "*",
-    "usb": "*"
+    "qr-image": "*"
   },
   "devDependencies": {
     "mocha": "*"
