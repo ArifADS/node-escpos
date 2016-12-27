@@ -1,6 +1,6 @@
 {
   "name": "escpos",
-  "version": "2.2.0",
+  "version": "2.3.1",
   "description": "ESC/POS Printer driver for nodejs",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,14 @@
   },
   "homepage": "https://github.com/song940/node-escpos#readme",
   "dependencies": {
-    "get-pixels": "*",
     "iconv-lite": "*",
-    "mutable-buffer": "*",
-    "qr-image": "*"
+    "mutable-buffer": "*"
+  },
+  "optionalDependencies": {
+    "get-pixels": "*",
+    "serialport": "*",
+    "qr-image": "*",
+    "usb": "*"
   },
   "devDependencies": {
     "mocha": "*"
